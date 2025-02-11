@@ -1,0 +1,8 @@
+name: proxyman-windows-linux
+language: javascript
+appmap_dir: tmp/appmap
+packages:
+  - path: src
+    # Include all files in the src directory
+  - path: lib
+    # Include all files in the lib directory
